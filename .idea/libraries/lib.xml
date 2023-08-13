@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="lib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Edu_Manage_System/lib/jBCrypt-0.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Edu_Manage_System/lib/java-mail-1.4.4.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
