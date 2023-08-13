@@ -38,7 +38,10 @@
             <TableColumn fx:id="colTRemove" prefWidth="176.0" text="Remove" />
          </columns>
       </TableView>
-      <ComboBox fx:id="cmbTeacher" layoutX="430.0" layoutY="60.0" prefHeight="25.0" prefWidth="170.0" promptText="Teacher" />
+      <ComboBox fx:id="cmbTeacher" layoutX="430.0" layoutY="60.0" prefHeight="25.0" prefWidth="170.0" promptText="Teacher">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></ComboBox>
       <TableView fx:id="tblPrograms" layoutX="14.0" layoutY="395.0" prefHeight="200.0" prefWidth="580.0">
          <columns>
             <TableColumn fx:id="colId" prefWidth="58.0" text="Code" />
@@ -50,6 +53,9 @@
          </columns>
       </TableView>
       <TextField fx:id="txtSearch" layoutX="14.0" layoutY="355.0" prefHeight="25.0" prefWidth="417.0" promptText="Search Here" />
-      <Button fx:id="btn" layoutX="451.0" layoutY="355.0" mnemonicParsing="false" onAction="#saveProgramOnAction" prefHeight="25.0" prefWidth="141.0" text="Save Program" />
+      <Button fx:id="btn" layoutX="451.0" layoutY="355.0" mnemonicParsing="false" onAction="#saveProgramOnAction" prefHeight="25.0" prefWidth="141.0" text="Save Program">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
    </children>
 </AnchorPane>
