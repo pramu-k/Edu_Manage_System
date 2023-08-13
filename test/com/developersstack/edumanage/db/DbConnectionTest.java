@@ -1,5 +1,7 @@
 package com.developersstack.edumanage.db;
 
+import com.edumanage.db.DbConnection;
+
 import java.sql.Connection;
 
 
